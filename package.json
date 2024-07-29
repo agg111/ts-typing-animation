@@ -1,0 +1,22 @@
+{
+  "name": "typescript-typing-animation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && vite build --watch",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "tsc && vite preview --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5",
+    "vite-plugin-checker": "^0.7.2"
+  },
+  "dependencies": {
+    "vscode": "^1.1.37"
+  }
+}
